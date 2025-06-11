@@ -1,0 +1,26 @@
+/* In this we will solve selector_exercise*/
+
+/* For the 1st part we will use element selector */
+p{
+    color: blueviolet;
+}
+
+/* For the second part we will use class selector   */
+.node{
+    font-size: "40px";
+}
+
+/* For the third part we will use Id selector */
+#id-selector-demo{
+    color: green;
+}
+/* For this we will use attribute selector and this will make element with element value = 4 and turned color blue */
+li[value = "4"]{
+    color: blue;
+}
+/* For this we will use universal selector  */
+*{
+    text-align: center;
+    
+}
+
